@@ -1,0 +1,34 @@
+.Navbar {
+  margin-bottom: 20px;
+  height: 3.5rem;
+  background-color: lightseagreen;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  justify-content: space space-evenly;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-bottom: 10px;
+}
+.Navbar__logo {
+  padding-left: 2rem;
+}
+
+.Navbar__list {
+  padding-top: 1rem;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.Navbar__list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Navbar__list a:hover {
+  text-decoration: underline;
+}

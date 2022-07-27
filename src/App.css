@@ -3,6 +3,7 @@
   display: flex;
   font-size: 0.9rem;
   justify-content: space-evenly;
+  padding-top: 5rem;
 }
 
 .App__friends {
@@ -18,7 +19,7 @@
 
 .search_msg {
   margin-bottom: 20px;
-  padding:10px;
+  padding: 10px;
 }
 
 @media (max-width: 767px) {

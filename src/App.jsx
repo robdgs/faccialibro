@@ -2,6 +2,7 @@ import { useState } from 'react';
 import AddMessage from './components/AddMessage';
 import FriendCardList from './components/FriendCardList';
 import MessageCardList from './components/MessageCardList';
+import Navbar from './components/Navbar';
 import './App.css';
 
 
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar/>
       <div className="App__friends">
         <h3>Lista degli amici</h3>
         <FriendCardList filterMsgFriends={setSearchValue} searchValue={searchValue} />
