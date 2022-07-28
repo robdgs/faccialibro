@@ -16,19 +16,36 @@
 }
 
 .Navbar__list {
-  padding-top: 1rem;
   display: flex;
   gap: 20px;
-  padding-right: 20px;
   list-style-type: none;
 }
 
-.Navbar__list a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+.ListItem {
+  padding: 5px 12px;
+  border-radius: 6px;
+  transition: all 0.35s;
 }
 
-.Navbar__list a:hover {
-  text-decoration: underline;
+.ListItem:hover {
+  background-color: ghostwhite;
+}
+
+.ListItem__link {
+  font-weight: bold;
+  color: ghostwhite;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding-bottom: 12px;
+}
+
+.ListItem__link:hover {
+  color: lightseagreen;
+}
+
+@media (max-width: 767px) {
+  .Navbar__img {
+    width: 40px;
+  }
 }

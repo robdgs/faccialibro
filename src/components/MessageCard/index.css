@@ -5,11 +5,11 @@
   box-shadow: 0 0 2px rgba(24, 24, 24, 0.45);
 }
 
-.MessageCard__text{
+.MessageCard__text {
   font-size: 1rem;
 }
 
-.MessageCard__info{
+.MessageCard__info {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -18,17 +18,21 @@
 }
 
 .MessageCard__delete {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: transparent;
+  position: relative;
+  display: flex;
+  top: -8px;
+  padding: 6px 10px;
+  margin-left: 21rem;
+  background-color: gray;
   border: 0;
-  color: lightcoral;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.2rem;
+  border-radius: 100%;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 1.35s;
+  transform: scale(0.6);
 }
 
 .MessageCard__delete:hover {

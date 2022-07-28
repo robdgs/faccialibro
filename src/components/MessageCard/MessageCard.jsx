@@ -31,7 +31,7 @@ const MessageCard = ({textContent, isRenderedList, onDeleteBtn}) => {
         </p>
       </div>
       {
-      isVisibile && <ModalWindow deleteFn={onBtnClick} setVisibile={setVisibile} setCondition={setDeletable} valueDeletable={isDeletable} mainModalText={"Vuoi davvero eliminare il seguente Post selezionato?"}/>
+      isVisibile && <ModalWindow type='submit' deleteFn={onBtnClick} setVisibile={setVisibile} setCondition={setDeletable} valueDeletable={isDeletable} mainModalText={"Vuoi davvero eliminare il messaggio selezionato?"}/>
       }   
       </div>
   )

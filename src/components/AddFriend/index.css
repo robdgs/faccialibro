@@ -14,10 +14,11 @@
 .AddFriend__inputs {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
-.AddFriend input {
+.AddFriend__photo,
+.AddFriend__name {
+  gap: 1rem;
   padding: 1rem;
   border: 0;
   outline: none;
