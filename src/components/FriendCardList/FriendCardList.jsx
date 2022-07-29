@@ -15,7 +15,7 @@ const FriendCardList = ({filterMsgFriends, searchValue}) => {
       {
         friendList.length
           ? friendList.map(friend => <FriendCard key={friend.id} onHandleClick={() => {filterMsgFriends(friend.name)
-          console.log(searchValue) }} friendData={friend}/>)
+         }} friendData={friend}/>)
           : <p>Loading...</p>
       }
     </div>
